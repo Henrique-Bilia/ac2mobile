@@ -29,7 +29,7 @@ public class AddGastoActivity extends AppCompatActivity {
         spinnerCategoria = findViewById(R.id.spinnerCategoria);
         btnSalvar = findViewById(R.id.btnSalvar);
 
-        // Carrega categorias no Spinner
+        
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
                 this,
                 R.array.categorias_array,
